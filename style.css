@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: lightsalmon;
+  height: 200px;
+  padding: 20px;
+}
+header img {
+  width: 100px;
+}
+header h1 {
+  color: aliceblue;
+}
+
+article {
+  border: solid 2px red;
+  width: 300px;
+  height: 300px;
+  padding: 20px 55px;
+  margin: 50px 50px;
+  background-color: sandybrown;
+}
+article figure {
+  text-align: center;
+}
+article img {
+  width: 200px;
+}
+article button {
+  border: solid 2px;
+  margin-top: 20px;
+  margin-left: 55px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: sienna;
+  color: aliceblue;
+}/*# sourceMappingURL=style.css.map */
