@@ -6,14 +6,45 @@
 
 header {
   background-color: lightsalmon;
-  height: 200px;
-  padding: 20px;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+}
+header section {
+  display: flex;
+  align-items: center;
 }
 header img {
   width: 100px;
 }
 header h1 {
   color: aliceblue;
+}
+
+.boxMenu {
+  border: solid 2px yellow;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  .boxMenu {
+    width: 70vw;
+    justify-content: space-between;
+    font-size: 23px;
+  }
+}
+.boxMenu a {
+  text-decoration: none;
+  color: white;
 }
 
 article {
@@ -39,4 +70,16 @@ article button {
   border-radius: 10px;
   background-color: sienna;
   color: aliceblue;
+}
+
+img {
+  display: block;
+  width: 100px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
